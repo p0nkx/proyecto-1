@@ -1,0 +1,245 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color:cornflowerblue;
+
+}
+.pagina5__tabla{
+    font-family: 'Press Start 2P', cursive;
+   font-size: 0.8em;
+}
+
+table 
+{   text-align: center;
+    color: red;
+    color:darkgreen;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 50px;
+
+    
+}
+
+ 
+.formulario__imput--active
+
+{ color: blue}
+
+
+
+h1{
+    background-color: indigo;
+    color: orange;
+    line-height: 1.5em;
+    padding: 1px;
+    text-align: center;
+    width: 100%vw;
+    height: 100%vh;
+    box-sizing: border-box;
+    margin: 10px 200px 50px 200px;
+    border-radius: 10%;
+    border:5px  solid;
+    box-shadow: 30px 10px 15px 5px #000;
+
+}
+
+.header{
+    
+   
+    background-color: indigo;
+    color: orange;
+    line-height: 1.3em;
+    padding: 12px;
+    text-align: center;
+    width: 100%vw;
+    height: 100%vh;
+    box-sizing: border-box;
+    border-radius: 10%;
+    box-shadow: 30px 10px 15px 5px #000;
+    border:5px  solid;
+    position:sticky;
+    top: 0px;
+    z-index: 1000;
+    
+}
+
+.separador{
+    background-color: indigo;
+    color: orange;
+    padding: 3px;
+    width: 100%x;
+    height: 100%vh;
+    border-radius: 10%;
+    box-shadow: 30px 10px 15px 5px #000;
+    border-style: dashed solid;
+    position:relative;
+    margin: 30px auto;
+
+}
+h2,h3,h4,h5,h6{
+    text-align: center;
+    margin: 1em;
+    
+}
+
+.pie{
+    text-align: center;
+    
+   
+}
+.caja{
+    background-color: indigo;
+    color: orange;
+    line-height: 1.5em;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border:5px  solid;
+    box-shadow: 30px 10px 15px 5px #000;
+    position:relative;
+    margin:auto;
+    top: 10px;
+    bottom:10px;
+
+}
+
+.contenedor{
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border:5px solid;
+    position:relative;
+    
+}
+.caja1,.caja2,.caja3,.caja4,.caja5{
+    width:  100px;
+    height: 100px;
+    position: absolute;
+    border:5px solid;
+}
+
+.caja1{
+    background-color: violet;
+    top: 0;
+    
+}
+.caja2{
+    background-color: aqua;
+    top: 0;
+    right: 0;
+    
+}
+.caja3{
+    background-color:chocolate;
+    
+    bottom: 0;
+    right: 0;
+ 
+}
+.caja4{
+    background-color: chartreuse;
+   bottom: 0;
+   left:  0;
+}
+.caja5{
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    left:  0;
+    top: 0;
+    margin: auto;
+   
+}
+.contentmanga{
+    background-color:rgb(61, 50, 136);
+    width: 530px;
+    height: 750px;
+    position: relative;
+    margin: 30px auto;
+    top: 2px;
+    
+}
+.manga{
+    
+    width: 450px;
+    height: 700px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left:  0;
+    top: 0;
+    margin: auto;
+}
+
+.abajo{
+    margin: 30px 20px;
+}
+
+.cajavideo{
+    width: 100%vw;
+    height: 350px;
+    position: relative;
+    background-color:chocolate;
+    border-radius: 5%;
+    border-color: #000;
+    box-sizing: border-box;
+    border:5px  solid;
+}
+
+.video{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    border-radius: 5%;
+    border-color: #000;
+    box-sizing: border-box;
+    border:5px  solid;
+}
+
+.video1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left:  0;
+    top: 0;
+    margin: auto;
+    border-radius: 5%;
+    border-color: #000;
+    box-sizing: border-box;
+    border:5px  solid;
+    
+
+}
+
+.video2{
+    position: absolute;
+    top: 15px;
+    border-radius: 5%;
+    border-color: #000;
+    box-sizing: border-box;
+    border:5px  solid;
+    right: 10px;
+    
+}
+
+audio{
+    width: 400px;
+    height: 70px;
+    background-color: chocolate;
+    position: relative;
+    left: 750px;
+    border-radius: 15%;
+    
+    border:5px solid;
+}
+
+
+p{
+    font-family: 'Handlee', cursive;
+    font-weight: bolder;
+    text-indent: 70px;
+}
