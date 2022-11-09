@@ -5,7 +5,7 @@
 
 body{
     background: #a44bba;
-    display: fle;
+    display: flexbox;
 }
 
 .contenedor{
@@ -90,7 +90,7 @@ p.p2:hover{
     margin: auto;
     width: 550px;
     height: 200px;
-    color: #ffffff;
+    color: #dfdede;
     padding: 50px;
     display: none;
 }
