@@ -76,18 +76,11 @@ p.p2:hover{
     cursor: pointer;
     color: #ffffff;
 }
-#si img{
-    width: 550px;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
 
-    }
 #si{
     
-    background: #246a1e;
-   border: solid black 5px;
+    background-image: url("/Multimedia/gon.jpg");
+   border: solid rgb(20, 80, 22) 5px;
    border-radius: 5%;
     position: absolute;
     left: 0;
@@ -96,7 +89,7 @@ p.p2:hover{
     bottom: 0;
     margin: auto;
     width: 550px;
-    height: 50px;
+    height: 200px;
     color: #ffffff;
     padding: 50px;
     display: none;
