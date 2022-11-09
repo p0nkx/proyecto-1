@@ -4,14 +4,14 @@
 }
 
 body{
-    background: #ca4ee9;
+    background: #a44bba;
     display: fle;
 }
 
 .contenedor{
    
-    width: 70%;
-    height: 150px;
+    width: 500px;
+    height: 500px;
    
     text-align: center;
     position: absolute;
@@ -20,12 +20,21 @@ body{
     right: 0;
     bottom: 0;
     margin: auto;
-    border: solid rgb(196, 20, 20) 3px;
+    border: solid rgb(196, 20, 20) 4px;
+}
+.hisoka{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .titulo{
+    color: #ffffffd0;
    height: 40px;
-    border: solid rgb(184, 178, 178) 3px;
+    border-bottom: solid rgb(223, 29, 29) 4px;
 }
 
 .opciones p{
@@ -38,9 +47,9 @@ body{
    
 }
 .opciones{
-    border: solid black 1px;
+   
     width: 100%;
-    height: 70%;
+    height: 100%;
 }
 
 p.p1{
@@ -57,16 +66,26 @@ p.p1:hover{
 
 p.p2{
     position: relative;
-    top: 40px;
-    width: 100px;
+    top: 200px;
+    left: 30px;
     border-radius: 10%;
+    border: solid rgb(80, 12, 65) 5px;
 }
 p.p2:hover{
     background: gray;
     cursor: pointer;
     color: #ffffff;
 }
+#si img{
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    }
 #si{
+    
     background: #246a1e;
    border: solid black 5px;
    border-radius: 5%;
