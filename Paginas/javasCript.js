@@ -43,6 +43,6 @@ let message = (age < 3) ? 'Hi, baby!' :
   'What an unusual age!';
 
 alert( message );
-
+5
 
 */
