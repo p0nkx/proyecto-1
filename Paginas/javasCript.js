@@ -46,3 +46,21 @@ alert( message );
 5
 
 */
+/*logueo simple usando if
+let user = prompt("quien es?")
+if(user === 'admin')
+{
+   let contraseña = prompt("ingrese contraseña: ");
+      if(contraseña === "" || contraseña === null)
+      {
+         alert("cancelado");
+      }
+      if(contraseña === '1234')
+      {
+         alert("bienvenido");
+      }
+      else
+         alert("contraseña incorecta");
+}else
+      alert("no te conozco");
+*/
