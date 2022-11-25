@@ -64,3 +64,29 @@ if(user === 'admin')
 }else
       alert("no te conozco");
 */
+
+
+//declarar las variables fuera del bucle para que funcionen bien
+//este codigo no funciona por que esta declarada la variable dentro del bucle
+   /*do{
+     let  numero = prompt("ingrese un numero mayor a 100: ",0);
+   }while(numero <=100 && numero);*/
+/*
+   let num;//este codigo funciona por que tiene la variable declarada fuera del bucle
+
+do {
+  num = prompt("Enter a number greater than 100?", 0);
+} while (num <= 100 && num);*/
+
+//bucle de numeros primos
+/*
+let num = prompt("ingrese un nummero para ver los primos contenidos entre este y 2:",0);
+
+nextPrime:
+for(let i = 2;i <= num;i++){
+
+for(let j = 2;j<i;j++){
+if(i % j == 0) continue nextPrime;
+}
+alert(i);
+}*/
