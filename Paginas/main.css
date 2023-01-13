@@ -80,8 +80,8 @@ p.p2:hover{
 #si{
     
     background-image: url("../Multimedia/gon.jpg");
-   border: solid rgb(20, 80, 22) 5px;
-   border-radius: 5%;
+    border: solid rgb(20, 80, 22) 5px;
+    border-radius: 5%;
     position: absolute;
     left: -75px;
     top: 0;
